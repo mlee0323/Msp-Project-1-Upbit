@@ -10,3 +10,7 @@
 - **K8s 마스터**: `kubeadm init` 성공 (Tailscale IP 기반 Control Plane 구성)
 - **네트워크 플러그인**: Flannel CNI 적용 및 노드 `Ready` 상태 확인
 - **보안**: GitHub Personal Access Token(PAT) 연동 및 첫 인프라 코드 커밋
+
+## 2025-12-20
+
+- **구축 준비**: Helm 설치 및 노드 자동화 스크립트 작성 완료
