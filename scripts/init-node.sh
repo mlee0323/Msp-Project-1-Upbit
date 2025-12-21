@@ -5,7 +5,7 @@ set -e
 
 echo ">>> 1. APT 잠금 대기 및 필수 패키지 설치"
 sudo apt update
-sudo apt install -y curl git apt-transport-https openssh-server chrony software-properties-common
+sudo apt install -y curl git apt-transport-https openssh-server chrony software-properties-common conntrack
 
 # SSH 서비스 활성화
 sudo systemctl enable --now ssh
